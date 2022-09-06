@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TREINO-JS</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="faviccon\favicon.ico" type="image/x-icon">    
+    <link rel="shortcut icon" href="favicon\favicon.ico" type="image/x-icon">   <!-- Não tem o repositório do favicon e nem o favicon nos arquivos, logo, não precisa por essa linha. -->
 </head>
 <body >
     <!--PRIMEIRO EXE-->
     <header>
-        <h1>Bem vindo ao (${JMV.WeeD}) </h1>
+        <h1>Bem vindo ao (${JMV}) </h1> <!-- Remover Weed da sua vida -->
     </header>
    
-    <section id="s1">
-        <div id="titulo">
+    <section id="section-one"> <!-- "s1" não é um bom nome, por que não deixa claro o que é a div (no caso aqui a selection) -->
+        <div id="title"> <!-- English please -->
             <h2>MODAL TABUADA</h2>
             <h4>crie uma tabuada que va ate o 10</h4>
         </div>
    
-        <div id="dados">
+        <div id="data"> <!-- English please -->
             <p>Numero:<input type="number" name="txtnu" id="txtnu">
             
             <input type="button" value="calcular" onclick="calcular()"></p>
         </div>
 
-        <div id="">
+        <div> <!-- id em branco? - Se não precisa de id nessa div, pode deixar apenas <div> -->
             <select name="seltab" id="seltab" size="10">
                 <option>digite um numero a cima</option>
 
@@ -36,20 +36,20 @@
     </section>
 <!--SEGUNDO EXERCCICIO-->
 <br>
-    <section id="s2">
-       <div id="titulo">
+    <section id="section-two"> <!-- "s2" não é um bom nome, por que não deixa claro o que é a div (no caso aqui a selection) -->
+       <div id="title"> <!-- English please -->
         <h2>MODAL CONTAGEM</h2>
         <h4>crie um contador </h4>
         </div>
 
-        <div id="dados">
+        <div id="data"> <!-- English please -->
            <p><strong>inicio:</strong><input type="number" name="inicio" id="inicio"></p>
             <p><strong>fim:</strong><input type="number" name="fim" id="fim"></p>
             <p><strong>passo:</strong><input type="number" name="passo" id="passo">
             <input type="button" value="contar" onclick="contar()"></p>
 
         </div>
-        <div id="saida">
+        <div id="result"> <!-- English please -->
             saida
         </div>
 
@@ -58,7 +58,7 @@
 
 
     <footer>
-        <p>&copy; Juan Meneghesso .WeeD</p>
+        <p>&copy; Juan Meneghesso</p> <!-- Remover Weed da sua vida -->
     </footer>
 
     <script src="srcipt.js"></script>
